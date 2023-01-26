@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deploy</title>
+	<script type=text/javascript src="{{url_for('static',filename='ttt.js')}}"></script>
+	<link   rel="stylesheet" type="text/css" href="{{url_for('static',filename='ttt.css')}}">
+</head>
+<body style="background: #222">
+	<div class="gradient" style="background: linear-gradient(to right, rgb(255, 157, 0), rgb(208, 128, 0));">
+		<div class="bigcontainer">
+
+			<!-- <div class="upperc"> -->
+				<form action="/save" method="POST" enctype="multipart/form-data" class="upperc">
+				<div class="button" ><label for="file" class="button-67" role="button"><input accept="image/*" type="file" name="file" id="file" onchange="loadFile(event)">Upload Image</label></div>
+				<div class="title" ><h4>Cigarette Detector Web-App</h4></div>
+				<div class="button" ><button onclick="" class="button-67">Detect</button><input type="text" name="js1" id="js1" style="display: none;"></div>
+				</form>
+			<!-- </div> -->
+
+			<div class="lowerc">
+				<div class="imagediv"><img id="input"  src="{{url_for('static',filename='produce.jpg')}}" class="image"/></div>
+				<div class="imagediv"><img id="output" src="{{url_for('static',filename='output.jpg')}}"  class="image"/></div>
+			</div> 
+
+		</div>
+	</div>
+</body>
+</html>
+
+<!-- <body style="background: #222;">
+		<section style="background: linear-gradient(to right, red, purple);">
+			<div class="module" style="margin-left: 10px; width:98.8%; height: 95vh;">
+
+				<form action="/save" method="POST" enctype="multipart/form-data" >
+					<label for="file" class="button-67" role="button" style="margin-top: 13px; margin-left:20px">
+						<input accept="image/*" type="file" name="file" id="file" onchange="loadFile(event)">Upload Image</label>
+					<button onclick="" class="noselect">Predict</button>
+					<input type="text" name="js1" id="js1" style="display: none;">
+				</form>
+
+				<h4 style="position: fixed; left: 44%; top: 1.8%; ">Select Image</h4>
+
+				<div style="height:7.6%"></div>
+
+				<section style="height: 93%;">
+					<div class="innerdivleft">
+						<img id="input" class="image" src="{{url_for('static',filename='produce.jpg')}}"/>
+					</div>
+					<div class="innerdivright">
+						<img id="output" class="image" src="{{url_for('static',filename='output.jpg')}}"/>
+					</div>
+				</section>
+
+			</div>
+		</section>
+	</body>
+</html> -->

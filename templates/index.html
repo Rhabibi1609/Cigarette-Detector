@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deploy</title>
+	<script type=text/javascript src="{{url_for('static',filename='ttt.js')}}"></script>
+	<link   rel="stylesheet" type="text/css" href="{{url_for('static',filename='ttt.css')}}">
+</head>
+	<body style="background: #2a2d37">
+		<div class="gradient" style="background: linear-gradient(to right, rgb(255, 157, 0), rgb(208, 128, 0));">
+			<div class="bigcontainer">
+
+				<!-- <div class="upperc"> -->
+					<form action="/save" method="POST" enctype="multipart/form-data" class="upperc">
+					<div class="button" ><label for="file" class="button-67" role="button"><input accept="image/*" type="file" name="file" id="file" onchange="loadFile(event)">Upload Image</label></div>
+					<div class="title" ><h2>========= </h2><h4>Cigarette Detector Web-App</h4><h2>========= </h2></div>
+					<div class="button" ><button onclick="" class="button-67">Detect</button><input type="text" name="js1" id="js1" style="display: none;"></div>
+					</form>
+				<!-- </div> -->
+
+				<div class="lowerc">
+					<div class="imagediv"><img id="input"  class="image"/></div>
+					<div class="imagediv"><img id="output" class="image"/></div>
+				</div> 
+
+			</div>
+		</div>
+	</body>
+</html>
