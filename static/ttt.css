@@ -44,7 +44,7 @@ body{
     .lowerc {
         height: 90vh;
         width: 96vw;
-        margin: 0 0 0 0;
+        margin: auto;
         display: flex;
         flex-direction: column;
         border-width : 0
