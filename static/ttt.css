@@ -63,7 +63,8 @@ body{
     .lowerc {
         height: 90vh;
         width: 96vw;
-        margin: 0 0 0 0;
+        margin: auto;
+        align-items: center;
         display: flex;
         flex-direction: row;
         border-width : 0
