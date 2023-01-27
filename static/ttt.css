@@ -52,6 +52,7 @@ body{
     }
     .imagediv {
         display: flex;
+        margin:0 auto;
         justify-content: center;
         align-items: center;
         height: 50%;
@@ -71,6 +72,7 @@ body{
     }
     .imagediv {
         display: flex;
+        margin:0 auto;
         justify-content: center;
         align-items: center;
         width: 50%;
