@@ -5,3 +5,4 @@ function loadFile(event){
 	s.value = inimage.src;
 	console.log(s.value);
 };
+ 
