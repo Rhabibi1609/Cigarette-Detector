@@ -19,7 +19,8 @@
 
 			<div class="lowerc">
 				
-				<body>                       <div class="imagediv"><img id="output" src="{{url_for('static',filename='output.jpg')}}"  class="image"/></div></body>
+				<body>                       <div class="imagediv"><img id="output" src="{{url_for('static',filename='output.jpg')}}"  class="image"/>
+					<p><br>Go back to upload a new picture.</p></div></body>
 			</div> 
 
 		</div>
@@ -27,29 +28,4 @@
 </body>
 </html>
 
-<!-- <body style="background: #222;">
-		<section style="background: linear-gradient(to right, red, purple);">
-			<div class="module" style="margin-left: 10px; width:98.8%; height: 95vh;">
 
-				<form action="/save" method="POST" enctype="multipart/form-data" >
-					<label for="file" class="button-67" role="button" style="margin-top: 13px; margin-left:20px">
-						<input accept="image/*" type="file" name="file" id="file" onchange="loadFile(event)">Upload Image</label>
-					<button onclick="" class="noselect">Predict</button>
-					<input type="text" name="js1" id="js1" style="display: none;">
-				</form>
-
-				<h4 style="position: fixed; left: 44%; top: 1.8%; ">Select Image</h4>
-
-				<div style="height:7.6%"></div>
-
-				<section style="height: 93%;">
-					
-					<div class="innerdivright">
-						<img id="output" class="image" src="{{url_for('static',filename='output.jpg')}}"/>
-					</div>
-				</section>
-
-			</div>
-		</section>
-	</body>
-</html> -->
