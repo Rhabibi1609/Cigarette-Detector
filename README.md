@@ -2,6 +2,8 @@
 
 It is a WebApp that uses html,css,js,python,flask and services of azure(custom vision and app service). The custom vision is trained on images of cigarette and detects it as an object. (please note that it is just a demonstration).
 
+Demo Video Link: https://youtu.be/iTfyIPZ1V-M
+
 # To Run:
 > * Open https://smokerdetecting.azurewebsites.net/
 > * click on upload and upload a picture.
