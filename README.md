@@ -5,6 +5,10 @@ It is a WebApp that uses html,css,js,python,flask and services of azure(custom v
 > Demo Video Link: https://youtu.be/iTfyIPZ1V-M
 > Live Project Link: https://smokerdetecting.azurewebsites.net/
 
+# Description
+The prevalence of false fire alarms caused by cigarette smoke results in significant water wastage. To address this issue, a solution is needed to distinguish between cigarette smoke and real fires before activating the fire alarm and water spray systems.
+The central objective of this project is to conserve a finite and exhaustible resource, water, by identifying and addressing false fire alarms. This is achieved by implementing a solution to distinguish between cigarette smoke and real fires before activating the fire alarm and water spray systems. The goal is to minimize water wastage, which is a critical concern in today's environment.
+The current demonstration utilizes Azure Custom Vision API to develop an object detection model and Azure Web Apps to host it. The application is designed using various technologies such as HTML, CSS, JavaScript, Python, MatPlotLib, and Flask. The primary objective of this project is to pitch the idea for its potential implementation in a production environment.
 
 
 
