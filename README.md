@@ -7,6 +7,7 @@ It is a WebApp that uses html,css,js,python,flask and services of azure(custom v
 
 
 
+
 # To Run:
 > * Open https://smokerdetecting.azurewebsites.net/
 > * click on upload and upload a picture.
@@ -37,10 +38,10 @@ PIP Requirements:
 
 # Steps for App Service: 
 > Open Azure Portal and Sign in with your account.
-> 1.Create an app service (web app) resource.
-> 2.In configuration tab, select resource group and give unique name for both resource group and web-app.
-> 3.Select Runtime Stack as Python 3.10.
-> 4.Go to Deployment center and choose a method to upload your source code (I used github (github actions)).
+> 1. Create an app service (web app) resource.
+> 2. In configuration tab, select resource group and give unique name for both resource group and web-app.
+> 3. Select Runtime Stack as Python 3.10.
+> 4. Go to Deployment center and choose a method to upload your source code (I used github (github actions)).
 > 5. Wait for deployment.
 > 6. Find Your website live on https://.azurewebsites.net/
 
