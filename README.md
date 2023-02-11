@@ -2,8 +2,8 @@
 
 It is a WebApp that uses html,css,js,python,flask and services of azure(custom vision and app service). The custom vision is trained on images of cigarette and detects it as an object. (please note that it is just a demonstration).
 
-Demo Video Link: https://youtu.be/iTfyIPZ1V-M
-Live Project Link: https://smokerdetecting.azurewebsites.net/
+> Demo Video Link: https://youtu.be/iTfyIPZ1V-M
+> Live Project Link: https://smokerdetecting.azurewebsites.net/
 
 
 
@@ -22,7 +22,7 @@ PIP Requirements:
 * python-dotenv==0.20.0
 
 
-# Steps: 
+# Steps for Custom Vision: 
 > Open Azure Portal and Sign in with your account.
 > For CUSTOM VISION:
 > 1. Create a custom vision resource.
@@ -35,7 +35,8 @@ PIP Requirements:
 ![download](https://user-images.githubusercontent.com/77888595/218259720-335c6e5d-1991-466c-a8e4-4c70e248f5b0.png)
 
 
-> For App Service:
+# Steps for App Service: 
+> Open Azure Portal and Sign in with your account.
 > 1.Create an app service (web app) resource.
 > 2.In configuration tab, select resource group and give unique name for both resource group and web-app.
 > 3.Select Runtime Stack as Python 3.10.
