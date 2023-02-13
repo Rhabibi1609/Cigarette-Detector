@@ -17,6 +17,14 @@ The current demonstration utilizes Azure Custom Vision API to develop an object 
 > * click on upload and upload a picture.
 > * press on predict.
 
+
+> To run locally:
+> clone the project using git.
+> install the requirements by using pip install -r requirements.txt
+> run the app.py on vsc or pycharm
+> go to the local host url.
+> website is up and running.
+
 PIP Requirements:
 * azure-cognitiveservices-vision-customvision==3.1.0
 * Flask==2.0.2
